@@ -89,7 +89,7 @@ body::-webkit-scrollbar-button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./pics/other/home.jpg);
+    background-image: url(./pics/other/home.webp);
 
     background-position: center;
     background-size: cover;
