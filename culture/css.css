@@ -1,0 +1,41 @@
+
+:root {
+    --head_color: #f4b37e;
+
+    --main-color: #E3CFAE;
+    --pri-color: #7f5c39;
+    --main_text_color: #314039;
+    --text_color: #707070;
+    --detail_colo: #FCFCFC;
+    --main-border: #DEDEDE;
+    --btn_color: #314039;
+/* 
+    --whatsapp: #25d366;
+    --gmail: #3b60c4;
+    --instagram: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); */
+
+    --icon_hover:#f4b37e;
+    --icon: #f2e5eb;
+
+    --main-font: 21px;
+    --detail-font: 18px;
+    --title-font: 36px;
+    --small-font: 14px;
+
+
+
+}
+
+
+.top
+{
+    background-image: url(../pics/other/masai\ people.jpg);
+}
+
+.top h1{
+    color: var(--icon);
+}
+
+.cont h3,.feed h3{
+    color: var(--head_color);
+}

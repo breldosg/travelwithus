@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    color: var(--main_text_color);
+    cursor: default;
+    text-transform: capitalize;
+}
+
+
+:root {
+    --main-back: #e4d4ba;
+    --main-color: #E3CFAE;
+    --pri-color: #D49C6D;
+    --main_text_color: #314039;
+    --text_color: #707070;
+    --detail_colo: #FCFCFC;
+    --main-border: #DEDEDE;
+    --btn_color: #314039;
+
+    --overlay: #e3cfae3d;
+    /* 
+    --whatsapp: #25d366;
+    --gmail: #3b60c4;
+    --instagram: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); */
+
+    --icon_hover: #835741;
+    --icon: #443d32;
+
+    --main-font: 21px;
+    --detail-font: 18px;
+    --title-font: 36px;
+    --small-font: 14px;
+
+
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(173, 173, 173);
+    padding-right: 2px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+body::-webkit-scrollbar-button {
+    font-size: 1;
+
+}
+
+
+.section_top {
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+    background-color: #e3cfaeee;
+    /* box-shadow: -3px 4px 7px #282a2d36; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.section_top h1 {
+    font-size: 40px;
+}
+
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background-color: var(--main-color);
+    position: relative;
+}
+
+
+.logo .logo_in {
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    background-image: url(../pics/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navs {
+    margin: 0px 5px;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-text-fill-color: var(--main_text_color);
+    -webkit-text-stroke: 0px black;
+    transition: 0.5s ease;
+}
+
+.navs:hover {
+    color: var(--icon_hover);
+    font-size: 18px;
+
+}
+
+
+.creator p {
+    color: var(--main-border);
+}
+
+.card {
+    box-shadow: -3px 4px 7px #282a2db9;
+    border-radius: 10px;
+
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.creator .icon img {
+    height: auto;
+}
